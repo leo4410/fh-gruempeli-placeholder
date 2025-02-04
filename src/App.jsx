@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <img src={fhgruempeliLogo} className="logo react" alt="React logo" height={window.innerHeight} style={{ alignSelf: 'center' }} />
+      <img src={fhgruempeliLogo} alt="FH Grümpeli" width={window.innerHeight > window.innerWidth ? window.innerWidth-20 : "auto"} height={window.innerHeight > window.innerWidth ? "auto" : window.innerHeight-20} style={{ alignSelf: 'center' }} />
     </>
   )
 }
