@@ -1,4 +1,4 @@
-import fhgruempeliLogo from './assets/Logo-Standard.png'
+import fhgruempeliLogo from './assets/full-white.png'
 import './App.css'
 
 function App() {
